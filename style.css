@@ -196,23 +196,28 @@ body {
             line-height: 1;
             opacity: 0.9;
         }
-        .hero-deco-w {
+        .hero-deco-s {
             top: 50%;
             left:5%;
             transform: translateY(-50%);
         }
         
-        .hero-deco-e{
+        .hero-deco-n{
             top: 50%;
-            left: 45%;
+            left: 40%;
             transform: translateY(-50%);
         }
-        .hero-deco-b {
+        .hero-deco-y {
             top:35%;
             left: 80%;
             transform: translateX(-50%);
         }
 /* ===== ABOUT SECTION ===== */
+.service-icon svg {
+    width: 48px;
+    height: 48px;
+    fill: #FD7E14; /* Orange Color - Theme ke hisaab se change kar sakte ho */
+}
 .about-section {
     background: linear-gradient(135deg, var(--dark-color) 0%, #4a5568 100%);
 }
